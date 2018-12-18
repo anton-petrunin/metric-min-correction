@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage{metric-min}
+%\usepackage{showkeys}
+\hypersetup{pdftitle={Correction to: Metric minimizing surfaces},
+pdfauthor={Anton Petrunin}}
+
+\begin{document}
+
+\title{Correction to: Metric minimizing surfaces}
+\author{Anton Petrunin}
+\nofootnote{A.~Petrunin was partially supported by Simons Foundation grant \#584781.}
+
+\newcommand{\Addresses}{{\bigskip\footnotesize
+Anton Petrunin, \par\nopagebreak\textsc{Department of Mathematics, PSU, University Park, PA 16802, USA}
+\par\nopagebreak
+\textit{Email}: \texttt{petrunin@math.psu.edu}
+}}
+
+\date{}
+
+\maketitle
+
+
+
+In \cite{petrunin-metric-min} the metric minimizing map has to be defined as 
+a continuous mapping $s\: D \to M$ such that (1) its pull-back metric\footnote{Suppose $s\: X\to Y$ is a continuous map from a topological space $X$ to a metric space $Y$.
+The pull-back metric $(x,x')\mapsto |xx'|_s$ is defined as the infimum of lengths of $s\circ\alpha$ for all paths from $x$ to $x'$ in $X$.} $(x,x')\mapsto |xx'|_s$ is continuous and (2) there is no mapping $s'\: D \to M$ such that
+$s'|_{\partial D} \equiv s|_{\partial D}$, $|xx'|_{s'} \le |xx' |_s$ for any two points $x, x' \in D$, and the inequality is strict for at least one pair $(x,x')$.
+
+Originally, instead of continuity of $(x,x')\mapsto |xx'|_s$, I assumed only that the disc $D$ equipped with the pull-back metric is compact;
+evidently, this is a weaker condition.
+
+The sketch of proof of the main theorem \cite[2.2]{petrunin-metric-min} used the continuity implicitly.
+An alternative proof of the case $k=0$ is given in \cite[9.2]{petrunin-stadler};
+this proof can be modified in a straightforward way to prove \cite[2.2]{petrunin-metric-min}.
+
+It remains open whether compactness alone is sufficient,
+but it is sufficient for another natural definition of pull-back metric \cite[9.1]{petrunin-stadler}.
+
+I would like to thank Stephan Stadler for pointing out this error.
+
+\begin{thebibliography}{52}
+
+\bibitem{petrunin-metric-min} Anton Petrunin,
+\textit{Metric minimizing surfaces.}
+Electron. Res. Announc. Amer. Math. Soc. 5 (1999), 47--54. 
+
+\bibitem{petrunin-stadler} Anton Petrunin, Stephan Stadler
+\textit{Metric minimizing surfaces revisited.} \texttt{arXiv:1707.09635 [math.DG]}.
+
+
+\end{thebibliography}
+
+\Addresses
+
+\end{document}
+
+??? check D --> \DD
